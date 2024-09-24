@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+:root{
+    --font: "Sofadi One", system-ui;
+    --cor-1: #EBD3F8;
+    --cor-2: #AD49E1;
+    --cor-3: #7A1CAC;
+    --cor-4: #2E073F;
+}
+
+body{
+    background-color: var(--cor-1);
+    color: var(--cor-4);
+    font-family: var(--font);
+}
+
+footer{
+    background-color: var(--cor-2);
+    color: var(--cor-4);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 2rem;
+}
+
+footer p{
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
